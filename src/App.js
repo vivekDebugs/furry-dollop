@@ -14,7 +14,8 @@ function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				Today is {daysOfWeek[dateObj.getDay()]}
+				Today is{' '}
+				<span className='App-link'>{daysOfWeek[dateObj.getDay()]}</span>
 			</header>
 		</div>
 	)
